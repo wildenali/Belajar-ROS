@@ -1,0 +1,7 @@
+fokus pada file mixing.py
+
+nah disini gimana caranya kalau misalnya si publisher dan subscriber di gabung?
+bisa ya?
+ya bisa dong
+
+caranya liat di program mixing.py
