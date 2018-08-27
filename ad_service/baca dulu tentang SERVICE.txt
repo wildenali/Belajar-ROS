@@ -1,0 +1,12 @@
+service dalam ros merupakan sebuah cara komunikasi yang dimiliki ros selain topic
+lah bedanya dengan topic apa dong?
+
+gini bedanya kalau si topic itu ada pengirim(publisher) ada penerima(subscriber), si publisher ya ngirim pesan ya kirim aja, ga peduli si penerima nya nerima atau tidak
+begitu juga sebaliknya, ga peduli si pengirim mau ngirim data atau kaga, si penerima ya running aja programnya
+
+berbeda dengan service
+dia sistemnya ada server ada client, jadi misal nih
+jadi server harus jalan duluan programnya, jadi kalau ada client yang minta sesuatu, si server bisa ngasi apa yang bisa di minta oleh si client
+begitu toh
+
+nah kalau misalnya si client minta sesuatu ke server, tapi servernya mati, maka si client nya ya nge stuck
