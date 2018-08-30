@@ -1,0 +1,23 @@
+# Mendefinisikan file action, yang terdiri dari GOAL, RESULT dan FEEDBACK
+# Bagian 1 Goal
+# Bagian 2 Result
+# Bagian 3 Feedback
+
+# Bagian 1 Goal, yang akan di kirim ke client
+#duration time_to_wait    # Jumlah waktu yang akan di tunggu
+#---                      # Pemisah definisi
+# Bagian 2 Result, akan di kirim server setelah selesai
+#duration time_elapsed    # Berapa lama waktu yang di tunggu
+#uint32 updates_sent      # Berapa banyak waktu yang disediakan sepanjang jalan
+#---
+# Bagian 3 Feedback, akan di krimkan secara periodik oleh server selagi di eksekusi
+#duration time_elapsed    # Berapa lama waktu yang di tunggu dimulai dari start
+#duration time_remaining  # Jumlah waktu yang terisisa sampai selesai
+
+duration time_to_wait
+---
+duration time_elapsed
+uint32 updates_sent
+---
+duration time_elapsed
+duration time_remaining
